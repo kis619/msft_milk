@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Milk App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to the Milk App!</h1>
+  <img class="milk-image" src="./assets/milk-splashing-glass.webp" alt="Milk">
+  <p>Discover the goodness of milk and its benefits.</p>
+  <button class="milk-button" onclick="showBenefits()">Show Benefits</button>
+  
+  <script>
+    function showBenefits() {
+      var benefits = [
+        "My milkshake brings all the boys to the yard"
+      ];
+      
+      var benefitsList = document.createElement("ul");
+      
+      benefits.forEach(function(benefit) {
+        var listItem = document.createElement("li");
+        listItem.textContent = benefit;
+        benefitsList.appendChild(listItem);
+      });
+      
+      document.body.appendChild(benefitsList);
+    }
+  </script>
+</body>
+</html>

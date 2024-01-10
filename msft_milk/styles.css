@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FF69B4;
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  .milk-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  
+  .milk-button {
+    padding: 10px 20px;
+    background-color: #FF69B4;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
